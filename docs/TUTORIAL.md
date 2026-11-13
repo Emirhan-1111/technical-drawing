@@ -2,7 +2,7 @@
 
 This walks through one part — a flanged bush — in six steps. Each step adds one layer and
 ends with something you can look at. Total time: about ten minutes. You need Python 3.10+
-and `pip install -r requirements.txt` (or `pip install technische-zeichnung`).
+and `pip install -r requirements.txt` (or `pip install technical-drawing`).
 
 Work in a file `bush.py` next to the repository's `scripts/` folder, or anywhere after
 installing the package.

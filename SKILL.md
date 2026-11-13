@@ -1,5 +1,5 @@
 ---
-name: technische-zeichnung
+name: technical-drawing
 description: Produce standards-compliant technical drawings (ISO/DIN, also ASME-style third-angle in English) as vector PDF/SVG/DXF from parametric build123d models or from a STEP file - part drawings, assembly drawings and weldments with sections, detail/half/broken views, hatching, dimensions, ISO 286 fits and limits tables, surface texture, geometrical tolerances (GD&T) and datums, threads, weld symbols, gear data tables, title block and parts list, checked automatically for collisions and inconsistencies. Use this skill whenever the user asks for a technical/engineering/manufacturing drawing, technische Zeichnung, Fertigungszeichnung, Einzelteilzeichnung, Zusammenbauzeichnung, Schweißzeichnung, teknik resim, a drawing from a STEP/CAD file, a BOM/Stückliste on a drawing, or wants fits, tolerances, roughness or GD&T put on a part - also when they only say "make CAD and drawings for this part" or want an existing drawing checked against the standards. Do not use it for software diagrams, flowcharts or UI mock-ups.
 ---
 

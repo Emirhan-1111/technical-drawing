@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "technische-zeichnung"
+name = "technical-drawing"
 version = "1.0.0"
 description = "ISO technical drawings (part, assembly, weldment) from build123d models or STEP files - vector PDF, SVG, DXF"
 readme = "README.md"

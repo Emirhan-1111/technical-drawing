@@ -1,4 +1,4 @@
-# technische-zeichnung — ISO technical drawings from code or from a STEP file
+# technical-drawing — ISO technical drawings from code or from a STEP file
 
 Turn a 3D model into a drawing a workshop can manufacture from: views with hidden-line
 removal, sections, detail / half / broken views, dimensions with ISO 286 fits, geometrical
@@ -24,7 +24,7 @@ It is a Python library (`drawlib`), a command line tool (`step2drawing`) and a
 **1. You have a STEP file** — from SolidWorks, Inventor, Fusion, FreeCAD, Onshape, …
 
 ```bash
-pip install "technische-zeichnung[dxf] @ git+https://github.com/Emirhan-1111/technische-zeichnung"
+pip install "technical-drawing[dxf] @ git+https://github.com/Emirhan-1111/technical-drawing"
 step2drawing part.step
 step2drawing part.step --lang en --projection third --units in --dxf
 step2drawing part.step --section --material "EN AW-6082 T651" --density 2.7
@@ -120,7 +120,7 @@ functionally right — that is still the engineer's part.
 ## Install
 
 ```bash
-pip install "technische-zeichnung[all] @ git+https://github.com/Emirhan-1111/technische-zeichnung"
+pip install "technical-drawing[all] @ git+https://github.com/Emirhan-1111/technical-drawing"
 ```
 
 or clone and `pip install -r requirements.txt`. Python 3.10+. build123d brings
@@ -129,10 +129,10 @@ OpenCascade; on most platforms that is a wheel and installs without a compiler.
 **Use as a Claude Code skill:** clone into your skills folder —
 
 ```bash
-git clone https://github.com/Emirhan-1111/technische-zeichnung ~/.claude/skills/technische-zeichnung
+git clone https://github.com/Emirhan-1111/technical-drawing ~/.claude/skills/technical-drawing
 ```
 
-(Windows: `%USERPROFILE%\.claude\skills\technische-zeichnung`). `SKILL.md` carries the
+(Windows: `%USERPROFILE%\.claude\skills\technical-drawing`). `SKILL.md` carries the
 description Claude matches against; the `references/` files are read on demand.
 
 ## The lettering font
