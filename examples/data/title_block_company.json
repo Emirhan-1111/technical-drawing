@@ -1,0 +1,25 @@
+{
+  "_comment": "Example of a company title block. Row edges in mm from the bottom, x ranges in mm from the left edge of the block. 'label' is either a key of drawlib.TEXTS (translated) or any literal text; 'key' is the entry of the dict passed to Sheet.title_block. Types: text (default), title, number, projection, edges, image.",
+  "width": 180,
+  "rows": [0, 9, 18, 27, 45],
+  "label_h": 1.6,
+  "value_h": 2.5,
+  "cells": [
+    {"rows": [2, 4], "x": [0, 38], "type": "image", "key": "logo"},
+    {"rows": [2, 4], "x": [38, 125], "label": "title", "type": "title"},
+    {"rows": [3, 4], "x": [125, 180], "label": "number", "type": "number"},
+    {"row": 2, "x": [125, 150], "label": "rev"},
+    {"row": 2, "x": [150, 180], "label": "sheet"},
+    {"row": 1, "x": [0, 60], "label": "material"},
+    {"row": 1, "x": [60, 82], "label": "mass"},
+    {"row": 1, "x": [82, 125], "label": "Surface treatment", "key": "finish"},
+    {"row": 1, "x": [125, 180], "label": "Customer", "key": "customer"},
+    {"row": 0, "x": [0, 18], "label": "scale"},
+    {"row": 0, "x": [18, 36], "label": "projection", "type": "projection"},
+    {"row": 0, "x": [36, 50], "label": "format"},
+    {"row": 0, "x": [50, 82], "label": "gentol"},
+    {"row": 0, "x": [82, 104], "label": "Drawn", "key": "author"},
+    {"row": 0, "x": [104, 125], "label": "Checked", "key": "approved"},
+    {"row": 0, "x": [125, 180], "label": "date"}
+  ]
+}

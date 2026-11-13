@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "technische-zeichnung"
+version = "1.0.0"
+description = "ISO technical drawings (part, assembly, weldment) from build123d models or STEP files - vector PDF, SVG, DXF"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["technical drawing", "engineering drawing", "ISO 128", "GD&T", "build123d", "STEP", "CAD", "DXF"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Multimedia :: Graphics",
+    "Intended Audience :: Manufacturing",
+]
+dependencies = ["build123d>=0.9.1", "matplotlib>=3.8", "numpy>=1.26"]
+
+[project.optional-dependencies]
+dxf = ["ezdxf>=1.3"]
+pdf = ["pypdf>=4.2", "pypdfium2>=4.30"]
+all = ["ezdxf>=1.3", "pypdf>=4.2", "pypdfium2>=4.30"]
+dev = ["pytest>=8", "ezdxf>=1.3"]
+
+[project.scripts]
+step2drawing = "step2drawing:main"
+
+[tool.setuptools]
+package-dir = { "" = "scripts" }
+py-modules = ["drawlib", "iso_tolerances", "dxf_export", "step2drawing"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

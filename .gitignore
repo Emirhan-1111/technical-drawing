@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.env
+.pytest_cache/
+
+# the ISO 3098 font is not redistributed here, see scripts/fonts/README.md
+scripts/fonts/*.ttf
+scripts/fonts/*.otf
+
+# your own rendered output (the gallery in examples/output is committed)
+out/
+example_output/
+*_check.png
+
+.DS_Store
+.idea/
+.vscode/
