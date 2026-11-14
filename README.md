@@ -11,12 +11,12 @@ It is a Python library (`drawlib`), a command line tool (`step2drawing`) and a
 [Claude Code](https://claude.com/claude-code) skill.
 
 <p align="center">
-  <img src="examples/output/BSP-001.png" width="32%" alt="Part drawing, flanged bush">
-  <img src="examples/output/BSP-200.png" width="66%" alt="Stepped shaft: broken view, detail, removed section">
+  <img src="https://raw.githubusercontent.com/Emirhan-1111/technical-drawing/main/examples/output/BSP-001.png" width="32%" alt="Part drawing, flanged bush">
+  <img src="https://raw.githubusercontent.com/Emirhan-1111/technical-drawing/main/examples/output/BSP-200.png" width="66%" alt="Stepped shaft: broken view, detail, removed section">
 </p>
 <p align="center">
-  <img src="examples/output/BSP-400.png" width="49%" alt="Flange: half section, pitch circle, position tolerance">
-  <img src="examples/output/EX-700.png" width="49%" alt="English, third-angle, company title block with logo">
+  <img src="https://raw.githubusercontent.com/Emirhan-1111/technical-drawing/main/examples/output/BSP-400.png" width="49%" alt="Flange: half section, pitch circle, position tolerance">
+  <img src="https://raw.githubusercontent.com/Emirhan-1111/technical-drawing/main/examples/output/EX-700.png" width="49%" alt="English, third-angle, company title block with logo">
 </p>
 
 ## Three ways in
@@ -55,7 +55,7 @@ S.title_block(dict(title="Flanged bush", number="BSP-001", material="11SMn30+C",
 S.save("BSP-001.pdf", png="BSP-001.png", dxf="BSP-001.dxf")
 ```
 
-The [tutorial](docs/TUTORIAL.md) goes from an empty file to that sheet in ten minutes.
+The [tutorial](https://github.com/Emirhan-1111/technical-drawing/blob/main/docs/TUTORIAL.md) goes from an empty file to that sheet in ten minutes.
 
 **3. You ask Claude** — with the skill installed, "make a manufacturing drawing of this
 part" runs the whole workflow: model, interference check, views, annotations, render,
@@ -63,19 +63,19 @@ look, fix, deliver.
 
 ## Example gallery
 
-Each script in [`examples/`](examples) is a complete, commented sheet — copy the one closest
+Each script in [`examples/`](https://github.com/Emirhan-1111/technical-drawing/tree/main/examples) is a complete, commented sheet — copy the one closest
 to your part. All of them pass the sheet check with zero findings.
 
 | Sheet | Shows |
 |---|---|
-| [`flanged_bush.py`](examples/flanged_bush.py) · [PDF](examples/output/BSP-001.pdf) | Turned part, section, fits, run-out to a datum, surface texture, limits table; `--lang en` |
-| [`bearing_bracket.py`](examples/bearing_bracket.py) · [PDF](examples/output/BSP-100.pdf) | Assembly: section with the shaft left uncut, cutting plane, item numbers, parts list, fit-pair table |
-| [`stepped_shaft.py`](examples/stepped_shaft.py) · [PDF](examples/output/BSP-200.pdf) | Broken view, external thread, detail view 5:1, removed section through a keyway, concave radius |
-| [`flange.py`](examples/flange.py) · [PDF](examples/output/BSP-400.pdf) | Half section with half dimension, pitch circle, position tolerance under a hole callout, flatness |
-| [`spur_gear.py`](examples/spur_gear.py) · [PDF](examples/output/BSP-500.pdf) | Gear drawn simplified (ISO 2203), gear data table with span measurement, keyway, total run-out |
-| [`weldment.py`](examples/weldment.py) · [PDF](examples/output/BSP-600.pdf) | Welded bracket: fillet welds both sides, process number, ISO 13920 general tolerances |
-| [`milled_block.py`](examples/milled_block.py) · [PDF](examples/output/EX-700.pdf) | English, third-angle, tapped holes, company title block from JSON with logo |
-| [`from_step.py`](examples/from_step.py) · [PDF](examples/output/BSP-300.pdf) · [EN](examples/output/BSP-300-en.pdf) · [DXF](examples/output/BSP-300-en.dxf) | STEP file → drawing, German first-angle and English third-angle in inches |
+| [`flanged_bush.py`](https://github.com/Emirhan-1111/technical-drawing/blob/main/examples/flanged_bush.py) · [PDF](https://github.com/Emirhan-1111/technical-drawing/blob/main/examples/output/BSP-001.pdf) | Turned part, section, fits, run-out to a datum, surface texture, limits table; `--lang en` |
+| [`bearing_bracket.py`](https://github.com/Emirhan-1111/technical-drawing/blob/main/examples/bearing_bracket.py) · [PDF](https://github.com/Emirhan-1111/technical-drawing/blob/main/examples/output/BSP-100.pdf) | Assembly: section with the shaft left uncut, cutting plane, item numbers, parts list, fit-pair table |
+| [`stepped_shaft.py`](https://github.com/Emirhan-1111/technical-drawing/blob/main/examples/stepped_shaft.py) · [PDF](https://github.com/Emirhan-1111/technical-drawing/blob/main/examples/output/BSP-200.pdf) | Broken view, external thread, detail view 5:1, removed section through a keyway, concave radius |
+| [`flange.py`](https://github.com/Emirhan-1111/technical-drawing/blob/main/examples/flange.py) · [PDF](https://github.com/Emirhan-1111/technical-drawing/blob/main/examples/output/BSP-400.pdf) | Half section with half dimension, pitch circle, position tolerance under a hole callout, flatness |
+| [`spur_gear.py`](https://github.com/Emirhan-1111/technical-drawing/blob/main/examples/spur_gear.py) · [PDF](https://github.com/Emirhan-1111/technical-drawing/blob/main/examples/output/BSP-500.pdf) | Gear drawn simplified (ISO 2203), gear data table with span measurement, keyway, total run-out |
+| [`weldment.py`](https://github.com/Emirhan-1111/technical-drawing/blob/main/examples/weldment.py) · [PDF](https://github.com/Emirhan-1111/technical-drawing/blob/main/examples/output/BSP-600.pdf) | Welded bracket: fillet welds both sides, process number, ISO 13920 general tolerances |
+| [`milled_block.py`](https://github.com/Emirhan-1111/technical-drawing/blob/main/examples/milled_block.py) · [PDF](https://github.com/Emirhan-1111/technical-drawing/blob/main/examples/output/EX-700.pdf) | English, third-angle, tapped holes, company title block from JSON with logo |
+| [`from_step.py`](https://github.com/Emirhan-1111/technical-drawing/blob/main/examples/from_step.py) · [PDF](https://github.com/Emirhan-1111/technical-drawing/blob/main/examples/output/BSP-300.pdf) · [EN](https://github.com/Emirhan-1111/technical-drawing/blob/main/examples/output/BSP-300-en.pdf) · [DXF](https://github.com/Emirhan-1111/technical-drawing/blob/main/examples/output/BSP-300-en.dxf) | STEP file → drawing, German first-angle and English third-angle in inches |
 
 ## What is covered
 
@@ -172,5 +172,5 @@ text extents of whichever font is used.
 
 ## Licence
 
-MIT, see [LICENSE](LICENSE). osifont is not part of this repository and has its own
+MIT, see [LICENSE](https://github.com/Emirhan-1111/technical-drawing/blob/main/LICENSE). osifont is not part of this repository and has its own
 licence (LGPL-3.0 with font exception; embedding it in a PDF is allowed).
