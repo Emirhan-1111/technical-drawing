@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Emirhan-1111/technical-drawing/main/assets/logo-256.png" width="128" alt="technical-drawing logo">
+</p>
+
 # technical-drawing — ISO technical drawings from code or from a STEP file
 
 Turn a 3D model into a drawing a workshop can manufacture from: views with hidden-line
